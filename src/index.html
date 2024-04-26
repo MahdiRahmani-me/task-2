@@ -1,0 +1,49 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسک دوره جاوااسکریپت</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+
+  <body>
+    <div class="modal" id="transaction-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="modal-close" onclick="closeModal()"
+            ><i class="fas fa-times"></i
+          ></span>
+          <h2>لیست تراکنش ها</h2>
+          <div class="search-box">
+            <input type="text" placeholder="جستجو تراکنش" />
+            <i class="fas fa-search search-icon"></i>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="shadow-box">
+            <h3>لیست تراکنش‌های شما</h3>
+            <ul>
+              <li>
+                <span>ردیف</span>
+                <span>نوع تراکنش</span>
+                <span>مبلغ</span>
+                <span>شماره پیگیری</span>
+                <span>تاریخ تراکنش</span>
+              </li>
+              <!-- اینجا ردیف‌های لیست را قرار دهید -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
